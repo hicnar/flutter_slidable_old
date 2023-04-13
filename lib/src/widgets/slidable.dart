@@ -546,12 +546,12 @@ class SlidableState extends State<Slidable>
     with TickerProviderStateMixin, AutomaticKeepAliveClientMixin<Slidable> {
   @override
   void initState() {
-    super.initState();
     _overallMoveController =
         AnimationController(duration: widget.movementDuration, vsync: this)
           ..addStatusListener(_handleDismissStatusChanged)
           ..addListener(_handleOverallPositionChanged);
     _initAnimations();
+    super.initState();
   }
 
   void _initAnimations() {
