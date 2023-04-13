@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:flutter_slidable/src/widgets/slidable.dart';
+import 'package:flutter_slidable_old/src/widgets/slidable.dart';
 
 const bool _kCloseOnTap = true;
 

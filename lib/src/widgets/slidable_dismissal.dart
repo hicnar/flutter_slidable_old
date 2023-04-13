@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_slidable/src/widgets/slidable.dart';
+import 'package:flutter_slidable_old/src/widgets/slidable.dart';
 
 const Duration _kResizeDuration = Duration(milliseconds: 300);
 

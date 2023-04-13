@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
-import 'package:flutter_slidable/src/widgets/slidable_action_pane.dart';
+import 'package:flutter_slidable_old/src/widgets/slidable_action_pane.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:test/test.dart' show fail;
 import 'package:flutter/widgets.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:flutter_slidable_old/flutter_slidable_old.dart';
 
 const double itemExtent = 100;
 const double actionExtentRatio = 0.2;

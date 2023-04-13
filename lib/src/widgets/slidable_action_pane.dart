@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_slidable/src/widgets/slidable.dart';
+import 'package:flutter_slidable_old/src/widgets/slidable.dart';
 
 class _SlidableStackActionPane extends StatelessWidget {
   _SlidableStackActionPane({
