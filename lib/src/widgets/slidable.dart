@@ -660,7 +660,7 @@ class SlidableState extends State<Slidable>
 
   void _addScrollingNotifierListener() {
     if (widget.closeOnScroll) {
-      _scrollPosition = Scrollable.of(context).position;
+      _scrollPosition = Scrollable.maybeOf(context)?.position;
       if (_scrollPosition != null) {
         _scrollPosition!.isScrollingNotifier.addListener(_isScrollingListener);
       }
